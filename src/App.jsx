@@ -32,7 +32,7 @@ class App extends React.Component {
     });
   }
 
-  addStudent(studentName) {
+  addStudents(studentName) {
     this.setState({
       students: this.state.students.concat(studentName)
     });
